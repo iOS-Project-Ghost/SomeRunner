@@ -56,8 +56,8 @@ class MainMenuScene: SKScene {
     //create background of scene
     func createBG(){
         for i in 0...2 {
-            let bg = SKSpriteNode(imageNamed: "BG")
-            bg.name = "BG"
+            let bg = SKSpriteNode(imageNamed: "BG2")
+            bg.name = "BG2"
             bg.anchorPoint = CGPoint(x: 0.5, y: 0.5)
             bg.position = CGPoint(x: CGFloat(i) * bg.size.width, y: 0)
             bg.zPosition = 0
@@ -80,7 +80,7 @@ class MainMenuScene: SKScene {
     //infinite scroll for background and grounds
     func infiniteScrollBackgrounds(){
         //scrolling for the main background
-        enumerateChildNodes(withName: "BG", using: ({
+        enumerateChildNodes(withName: "BG2", using: ({
             (node, error) in
             let bgNode = node as! SKSpriteNode
             //move backgrounds by 4 pixels to the left
@@ -116,10 +116,11 @@ class MainMenuScene: SKScene {
     func getLabel(){
         
         title = self.childNode(withName: "Title") as! SKLabelNode
-        title.fontName = "RosewoodStd-Regular"
+        title.fontName = "Noteworthy"
         title.fontSize = 120
-        title.text = "Cowboy Runner"
+        title.text = "Dude Runner"
         title.zPosition = 5
+        title.fontColor = UIColor.darkGray
         
         let moveUp = SKAction.moveTo(y: title.position.y + 50, duration: TimeInterval(1.3))
         
@@ -134,7 +135,7 @@ class MainMenuScene: SKScene {
     func showScore(){
         
         scoreLabel.removeFromParent()
-        scoreLabel = SKLabelNode(fontNamed: "RosewoodStd-Regular")
+        scoreLabel = SKLabelNode(fontNamed: "Noteworthy")
         scoreLabel.fontSize = 180;
         scoreLabel.text = "\(UserDefaults.standard.integer(forKey: "Highscore"))"
         scoreLabel.position = CGPoint(x: 0, y: -200)

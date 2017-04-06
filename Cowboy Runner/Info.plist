@@ -37,6 +37,7 @@
 	<key>UIAppFonts</key>
 	<array>
 		<string>RosewoodStd-Regular.otf</string>
+		<string>AprilFlowers-OTF.otf</string>
 	</array>
 </dict>
 </plist>

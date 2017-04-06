@@ -15,6 +15,7 @@
 		4544CC681E95C90500F81BE2 /* CapDude 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 4544CC671E95C90500F81BE2 /* CapDude 6.png */; };
 		4544CC6A1E95C90900F81BE2 /* CapDude 7.png in Resources */ = {isa = PBXBuildFile; fileRef = 4544CC691E95C90900F81BE2 /* CapDude 7.png */; };
 		4544CC6C1E95C90E00F81BE2 /* CapDude 8.png in Resources */ = {isa = PBXBuildFile; fileRef = 4544CC6B1E95C90E00F81BE2 /* CapDude 8.png */; };
+		4544CC6E1E95D82300F81BE2 /* AprilFlowers-OTF.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4544CC6D1E95D7E400F81BE2 /* AprilFlowers-OTF.otf */; };
 		AC627EF61E8DDEEF007AC6F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC627EF51E8DDEEF007AC6F3 /* AppDelegate.swift */; };
 		AC627EFE1E8DDEEF007AC6F3 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC627EFD1E8DDEEF007AC6F3 /* GameViewController.swift */; };
 		AC627F011E8DDEEF007AC6F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC627EFF1E8DDEEF007AC6F3 /* Main.storyboard */; };
@@ -68,6 +69,7 @@
 		4544CC671E95C90500F81BE2 /* CapDude 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CapDude 6.png"; sourceTree = "<group>"; };
 		4544CC691E95C90900F81BE2 /* CapDude 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CapDude 7.png"; sourceTree = "<group>"; };
 		4544CC6B1E95C90E00F81BE2 /* CapDude 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CapDude 8.png"; sourceTree = "<group>"; };
+		4544CC6D1E95D7E400F81BE2 /* AprilFlowers-OTF.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AprilFlowers-OTF.otf"; sourceTree = "<group>"; };
 		AC627EF21E8DDEEF007AC6F3 /* Cowboy Runner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cowboy Runner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC627EF51E8DDEEF007AC6F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC627EFD1E8DDEEF007AC6F3 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
@@ -227,6 +229,7 @@
 		AC627F441E8DDFD7007AC6F3 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				4544CC6D1E95D7E400F81BE2 /* AprilFlowers-OTF.otf */,
 				AC627F451E8DDFF0007AC6F3 /* RosewoodStd-Regular.otf */,
 			);
 			name = Fonts;
@@ -378,6 +381,7 @@
 				AC627F011E8DDEEF007AC6F3 /* Main.storyboard in Resources */,
 				AC627F3B1E8DDFAE007AC6F3 /* Player 6.png in Resources */,
 				4544CC6A1E95C90900F81BE2 /* CapDude 7.png in Resources */,
+				4544CC6E1E95D82300F81BE2 /* AprilFlowers-OTF.otf in Resources */,
 				AC627F461E8DDFF0007AC6F3 /* RosewoodStd-Regular.otf in Resources */,
 				4544CC6C1E95C90E00F81BE2 /* CapDude 8.png in Resources */,
 				AC627F4A1E8DE0F3007AC6F3 /* GameplayScene.sks in Resources */,

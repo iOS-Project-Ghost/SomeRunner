@@ -209,8 +209,8 @@ class GameplayScene: SKScene, SKPhysicsContactDelegate{
     //create background of scene
     func createBG(){
         for i in 0...2 {
-            let bg = SKSpriteNode(imageNamed: "BG")
-            bg.name = "BG"
+            let bg = SKSpriteNode(imageNamed: "BG2")
+            bg.name = "BG2"
             bg.anchorPoint = CGPoint(x: 0.5, y: 0.5)
             bg.position = CGPoint(x: CGFloat(i) * bg.size.width, y: 0)
             bg.zPosition = 0
@@ -237,7 +237,7 @@ class GameplayScene: SKScene, SKPhysicsContactDelegate{
     //infinite scroll for background and grounds
     func infiniteScrollBackgrounds(){
         //scrolling for the main background
-        enumerateChildNodes(withName: "BG", using: ({
+        enumerateChildNodes(withName: "BG2", using: ({
             (node, error) in
             let bgNode = node as! SKSpriteNode
             //move backgrounds by 4 pixels to the left
@@ -338,8 +338,10 @@ class GameplayScene: SKScene, SKPhysicsContactDelegate{
     func getLabel(){
         
         scoreLabel = self.childNode(withName: "Score Label") as! SKLabelNode
-        scoreLabel.fontName = "RosewoodStd-Regular"
+        scoreLabel.fontName = "Noteworthy"
         scoreLabel.text = "0M"
+        scoreLabel.fontSize = 70
+        scoreLabel.fontColor = UIColor.darkGray
         
     }
     
