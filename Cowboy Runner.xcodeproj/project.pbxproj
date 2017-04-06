@@ -7,16 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4544CC5E1E95C8D300F81BE2 /* CapDude 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4544CC5D1E95C8D300F81BE2 /* CapDude 1.png */; };
+		4544CC601E95C8E500F81BE2 /* CapDude 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4544CC5F1E95C8E500F81BE2 /* CapDude 2.png */; };
+		4544CC621E95C8F300F81BE2 /* CapDude 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 4544CC611E95C8F300F81BE2 /* CapDude 3.png */; };
+		4544CC641E95C8FA00F81BE2 /* CapDude 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 4544CC631E95C8FA00F81BE2 /* CapDude 4.png */; };
+		4544CC661E95C8FF00F81BE2 /* CapDude 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 4544CC651E95C8FF00F81BE2 /* CapDude 5.png */; };
+		4544CC681E95C90500F81BE2 /* CapDude 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 4544CC671E95C90500F81BE2 /* CapDude 6.png */; };
+		4544CC6A1E95C90900F81BE2 /* CapDude 7.png in Resources */ = {isa = PBXBuildFile; fileRef = 4544CC691E95C90900F81BE2 /* CapDude 7.png */; };
+		4544CC6C1E95C90E00F81BE2 /* CapDude 8.png in Resources */ = {isa = PBXBuildFile; fileRef = 4544CC6B1E95C90E00F81BE2 /* CapDude 8.png */; };
 		AC627EF61E8DDEEF007AC6F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC627EF51E8DDEEF007AC6F3 /* AppDelegate.swift */; };
-		AC627EF81E8DDEEF007AC6F3 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = AC627EF71E8DDEEF007AC6F3 /* GameScene.sks */; };
-		AC627EFA1E8DDEEF007AC6F3 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = AC627EF91E8DDEEF007AC6F3 /* Actions.sks */; };
-		AC627EFC1E8DDEEF007AC6F3 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC627EFB1E8DDEEF007AC6F3 /* GameScene.swift */; };
 		AC627EFE1E8DDEEF007AC6F3 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC627EFD1E8DDEEF007AC6F3 /* GameViewController.swift */; };
 		AC627F011E8DDEEF007AC6F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC627EFF1E8DDEEF007AC6F3 /* Main.storyboard */; };
 		AC627F031E8DDEEF007AC6F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC627F021E8DDEEF007AC6F3 /* Assets.xcassets */; };
 		AC627F061E8DDEEF007AC6F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC627F041E8DDEEF007AC6F3 /* LaunchScreen.storyboard */; };
 		AC627F111E8DDEEF007AC6F3 /* Cowboy_RunnerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC627F101E8DDEEF007AC6F3 /* Cowboy_RunnerTests.swift */; };
 		AC627F1C1E8DDEEF007AC6F3 /* Cowboy_RunnerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC627F1B1E8DDEEF007AC6F3 /* Cowboy_RunnerUITests.swift */; };
+		AC627F361E8DDFAE007AC6F3 /* Player 1.png in Resources */ = {isa = PBXBuildFile; fileRef = AC627F2B1E8DDFAE007AC6F3 /* Player 1.png */; };
+		AC627F371E8DDFAE007AC6F3 /* Player 2.png in Resources */ = {isa = PBXBuildFile; fileRef = AC627F2C1E8DDFAE007AC6F3 /* Player 2.png */; };
+		AC627F381E8DDFAE007AC6F3 /* Player 3.png in Resources */ = {isa = PBXBuildFile; fileRef = AC627F2D1E8DDFAE007AC6F3 /* Player 3.png */; };
+		AC627F391E8DDFAE007AC6F3 /* Player 4.png in Resources */ = {isa = PBXBuildFile; fileRef = AC627F2E1E8DDFAE007AC6F3 /* Player 4.png */; };
+		AC627F3A1E8DDFAE007AC6F3 /* Player 5.png in Resources */ = {isa = PBXBuildFile; fileRef = AC627F2F1E8DDFAE007AC6F3 /* Player 5.png */; };
+		AC627F3B1E8DDFAE007AC6F3 /* Player 6.png in Resources */ = {isa = PBXBuildFile; fileRef = AC627F301E8DDFAE007AC6F3 /* Player 6.png */; };
+		AC627F3C1E8DDFAE007AC6F3 /* Player 7.png in Resources */ = {isa = PBXBuildFile; fileRef = AC627F311E8DDFAE007AC6F3 /* Player 7.png */; };
+		AC627F3D1E8DDFAE007AC6F3 /* Player 8.png in Resources */ = {isa = PBXBuildFile; fileRef = AC627F321E8DDFAE007AC6F3 /* Player 8.png */; };
+		AC627F3E1E8DDFAE007AC6F3 /* Player 9.png in Resources */ = {isa = PBXBuildFile; fileRef = AC627F331E8DDFAE007AC6F3 /* Player 9.png */; };
+		AC627F3F1E8DDFAE007AC6F3 /* Player 10.png in Resources */ = {isa = PBXBuildFile; fileRef = AC627F341E8DDFAE007AC6F3 /* Player 10.png */; };
+		AC627F401E8DDFAE007AC6F3 /* Player 11.png in Resources */ = {isa = PBXBuildFile; fileRef = AC627F351E8DDFAE007AC6F3 /* Player 11.png */; };
+		AC627F431E8DDFCE007AC6F3 /* Jump.wav in Resources */ = {isa = PBXBuildFile; fileRef = AC627F421E8DDFCE007AC6F3 /* Jump.wav */; };
+		AC627F461E8DDFF0007AC6F3 /* RosewoodStd-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = AC627F451E8DDFF0007AC6F3 /* RosewoodStd-Regular.otf */; };
+		AC627F4A1E8DE0F3007AC6F3 /* GameplayScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = AC627F491E8DE0F3007AC6F3 /* GameplayScene.sks */; };
+		AC627F4C1E8DE160007AC6F3 /* GameplayScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC627F4B1E8DE160007AC6F3 /* GameplayScene.swift */; };
+		ACA903911E8DF14A0040550B /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA903901E8DF14A0040550B /* Player.swift */; };
+		ACA903931E8E16D00040550B /* MainMenuScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = ACA903921E8E16D00040550B /* MainMenuScene.sks */; };
+		ACA903951E8E17030040550B /* MainMenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA903941E8E17030040550B /* MainMenuScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,11 +60,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4544CC5D1E95C8D300F81BE2 /* CapDude 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CapDude 1.png"; sourceTree = "<group>"; };
+		4544CC5F1E95C8E500F81BE2 /* CapDude 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CapDude 2.png"; sourceTree = "<group>"; };
+		4544CC611E95C8F300F81BE2 /* CapDude 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CapDude 3.png"; sourceTree = "<group>"; };
+		4544CC631E95C8FA00F81BE2 /* CapDude 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CapDude 4.png"; sourceTree = "<group>"; };
+		4544CC651E95C8FF00F81BE2 /* CapDude 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CapDude 5.png"; sourceTree = "<group>"; };
+		4544CC671E95C90500F81BE2 /* CapDude 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CapDude 6.png"; sourceTree = "<group>"; };
+		4544CC691E95C90900F81BE2 /* CapDude 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CapDude 7.png"; sourceTree = "<group>"; };
+		4544CC6B1E95C90E00F81BE2 /* CapDude 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CapDude 8.png"; sourceTree = "<group>"; };
 		AC627EF21E8DDEEF007AC6F3 /* Cowboy Runner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cowboy Runner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC627EF51E8DDEEF007AC6F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AC627EF71E8DDEEF007AC6F3 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		AC627EF91E8DDEEF007AC6F3 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
-		AC627EFB1E8DDEEF007AC6F3 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		AC627EFD1E8DDEEF007AC6F3 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		AC627F001E8DDEEF007AC6F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AC627F021E8DDEEF007AC6F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,6 +81,24 @@
 		AC627F171E8DDEEF007AC6F3 /* Cowboy RunnerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cowboy RunnerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC627F1B1E8DDEEF007AC6F3 /* Cowboy_RunnerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cowboy_RunnerUITests.swift; sourceTree = "<group>"; };
 		AC627F1D1E8DDEEF007AC6F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC627F2B1E8DDFAE007AC6F3 /* Player 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 1.png"; sourceTree = "<group>"; };
+		AC627F2C1E8DDFAE007AC6F3 /* Player 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 2.png"; sourceTree = "<group>"; };
+		AC627F2D1E8DDFAE007AC6F3 /* Player 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 3.png"; sourceTree = "<group>"; };
+		AC627F2E1E8DDFAE007AC6F3 /* Player 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 4.png"; sourceTree = "<group>"; };
+		AC627F2F1E8DDFAE007AC6F3 /* Player 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 5.png"; sourceTree = "<group>"; };
+		AC627F301E8DDFAE007AC6F3 /* Player 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 6.png"; sourceTree = "<group>"; };
+		AC627F311E8DDFAE007AC6F3 /* Player 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 7.png"; sourceTree = "<group>"; };
+		AC627F321E8DDFAE007AC6F3 /* Player 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 8.png"; sourceTree = "<group>"; };
+		AC627F331E8DDFAE007AC6F3 /* Player 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 9.png"; sourceTree = "<group>"; };
+		AC627F341E8DDFAE007AC6F3 /* Player 10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 10.png"; sourceTree = "<group>"; };
+		AC627F351E8DDFAE007AC6F3 /* Player 11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 11.png"; sourceTree = "<group>"; };
+		AC627F421E8DDFCE007AC6F3 /* Jump.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Jump.wav; sourceTree = "<group>"; };
+		AC627F451E8DDFF0007AC6F3 /* RosewoodStd-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RosewoodStd-Regular.otf"; sourceTree = "<group>"; };
+		AC627F491E8DE0F3007AC6F3 /* GameplayScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameplayScene.sks; sourceTree = "<group>"; };
+		AC627F4B1E8DE160007AC6F3 /* GameplayScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameplayScene.swift; sourceTree = "<group>"; };
+		ACA903901E8DF14A0040550B /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		ACA903921E8E16D00040550B /* MainMenuScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MainMenuScene.sks; sourceTree = "<group>"; };
+		ACA903941E8E17030040550B /* MainMenuScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenuScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +130,9 @@
 			isa = PBXGroup;
 			children = (
 				AC627EF41E8DDEEF007AC6F3 /* Cowboy Runner */,
+				AC627F481E8DE0C6007AC6F3 /* Classes */,
+				AC627F471E8DE0B7007AC6F3 /* Scenes */,
+				AC627F291E8DDF70007AC6F3 /* Assets */,
 				AC627F0F1E8DDEEF007AC6F3 /* Cowboy RunnerTests */,
 				AC627F1A1E8DDEEF007AC6F3 /* Cowboy RunnerUITests */,
 				AC627EF31E8DDEEF007AC6F3 /* Products */,
@@ -104,9 +153,6 @@
 			isa = PBXGroup;
 			children = (
 				AC627EF51E8DDEEF007AC6F3 /* AppDelegate.swift */,
-				AC627EF71E8DDEEF007AC6F3 /* GameScene.sks */,
-				AC627EF91E8DDEEF007AC6F3 /* Actions.sks */,
-				AC627EFB1E8DDEEF007AC6F3 /* GameScene.swift */,
 				AC627EFD1E8DDEEF007AC6F3 /* GameViewController.swift */,
 				AC627EFF1E8DDEEF007AC6F3 /* Main.storyboard */,
 				AC627F021E8DDEEF007AC6F3 /* Assets.xcassets */,
@@ -132,6 +178,93 @@
 				AC627F1D1E8DDEEF007AC6F3 /* Info.plist */,
 			);
 			path = "Cowboy RunnerUITests";
+			sourceTree = "<group>";
+		};
+		AC627F291E8DDF70007AC6F3 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				AC627F441E8DDFD7007AC6F3 /* Fonts */,
+				AC627F411E8DDFBB007AC6F3 /* Sounds */,
+				AC627F2A1E8DDF88007AC6F3 /* Player */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		AC627F2A1E8DDF88007AC6F3 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				4544CC5D1E95C8D300F81BE2 /* CapDude 1.png */,
+				4544CC5F1E95C8E500F81BE2 /* CapDude 2.png */,
+				4544CC611E95C8F300F81BE2 /* CapDude 3.png */,
+				4544CC631E95C8FA00F81BE2 /* CapDude 4.png */,
+				4544CC651E95C8FF00F81BE2 /* CapDude 5.png */,
+				4544CC671E95C90500F81BE2 /* CapDude 6.png */,
+				4544CC691E95C90900F81BE2 /* CapDude 7.png */,
+				4544CC6B1E95C90E00F81BE2 /* CapDude 8.png */,
+				AC627F2B1E8DDFAE007AC6F3 /* Player 1.png */,
+				AC627F2C1E8DDFAE007AC6F3 /* Player 2.png */,
+				AC627F2D1E8DDFAE007AC6F3 /* Player 3.png */,
+				AC627F2E1E8DDFAE007AC6F3 /* Player 4.png */,
+				AC627F2F1E8DDFAE007AC6F3 /* Player 5.png */,
+				AC627F301E8DDFAE007AC6F3 /* Player 6.png */,
+				AC627F311E8DDFAE007AC6F3 /* Player 7.png */,
+				AC627F321E8DDFAE007AC6F3 /* Player 8.png */,
+				AC627F331E8DDFAE007AC6F3 /* Player 9.png */,
+				AC627F341E8DDFAE007AC6F3 /* Player 10.png */,
+				AC627F351E8DDFAE007AC6F3 /* Player 11.png */,
+			);
+			name = Player;
+			sourceTree = "<group>";
+		};
+		AC627F411E8DDFBB007AC6F3 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				AC627F421E8DDFCE007AC6F3 /* Jump.wav */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+		AC627F441E8DDFD7007AC6F3 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				AC627F451E8DDFF0007AC6F3 /* RosewoodStd-Regular.otf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		AC627F471E8DE0B7007AC6F3 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				AC627F491E8DE0F3007AC6F3 /* GameplayScene.sks */,
+				ACA903921E8E16D00040550B /* MainMenuScene.sks */,
+			);
+			name = Scenes;
+			sourceTree = "<group>";
+		};
+		AC627F481E8DE0C6007AC6F3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				ACA9038F1E8DF1360040550B /* Player Class */,
+				ACA9038E1E8DF1270040550B /* Scene Classes */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		ACA9038E1E8DF1270040550B /* Scene Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AC627F4B1E8DE160007AC6F3 /* GameplayScene.swift */,
+				ACA903941E8E17030040550B /* MainMenuScene.swift */,
+			);
+			name = "Scene Classes";
+			sourceTree = "<group>";
+		};
+		ACA9038F1E8DF1360040550B /* Player Class */ = {
+			isa = PBXGroup;
+			children = (
+				ACA903901E8DF14A0040550B /* Player.swift */,
+			);
+			name = "Player Class";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +335,7 @@
 				TargetAttributes = {
 					AC627EF11E8DDEEF007AC6F3 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = N6RP3H788Z;
 						ProvisioningStyle = Automatic;
 					};
 					AC627F0B1E8DDEEF007AC6F3 = {
@@ -242,10 +376,31 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC627F011E8DDEEF007AC6F3 /* Main.storyboard in Resources */,
-				AC627EF81E8DDEEF007AC6F3 /* GameScene.sks in Resources */,
+				AC627F3B1E8DDFAE007AC6F3 /* Player 6.png in Resources */,
+				4544CC6A1E95C90900F81BE2 /* CapDude 7.png in Resources */,
+				AC627F461E8DDFF0007AC6F3 /* RosewoodStd-Regular.otf in Resources */,
+				4544CC6C1E95C90E00F81BE2 /* CapDude 8.png in Resources */,
+				AC627F4A1E8DE0F3007AC6F3 /* GameplayScene.sks in Resources */,
+				4544CC681E95C90500F81BE2 /* CapDude 6.png in Resources */,
+				4544CC661E95C8FF00F81BE2 /* CapDude 5.png in Resources */,
+				AC627F371E8DDFAE007AC6F3 /* Player 2.png in Resources */,
+				AC627F3D1E8DDFAE007AC6F3 /* Player 8.png in Resources */,
 				AC627F031E8DDEEF007AC6F3 /* Assets.xcassets in Resources */,
+				AC627F3F1E8DDFAE007AC6F3 /* Player 10.png in Resources */,
+				4544CC5E1E95C8D300F81BE2 /* CapDude 1.png in Resources */,
 				AC627F061E8DDEEF007AC6F3 /* LaunchScreen.storyboard in Resources */,
-				AC627EFA1E8DDEEF007AC6F3 /* Actions.sks in Resources */,
+				AC627F361E8DDFAE007AC6F3 /* Player 1.png in Resources */,
+				ACA903931E8E16D00040550B /* MainMenuScene.sks in Resources */,
+				4544CC601E95C8E500F81BE2 /* CapDude 2.png in Resources */,
+				AC627F3E1E8DDFAE007AC6F3 /* Player 9.png in Resources */,
+				AC627F431E8DDFCE007AC6F3 /* Jump.wav in Resources */,
+				AC627F3A1E8DDFAE007AC6F3 /* Player 5.png in Resources */,
+				4544CC621E95C8F300F81BE2 /* CapDude 3.png in Resources */,
+				AC627F381E8DDFAE007AC6F3 /* Player 3.png in Resources */,
+				AC627F391E8DDFAE007AC6F3 /* Player 4.png in Resources */,
+				AC627F3C1E8DDFAE007AC6F3 /* Player 7.png in Resources */,
+				4544CC641E95C8FA00F81BE2 /* CapDude 4.png in Resources */,
+				AC627F401E8DDFAE007AC6F3 /* Player 11.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,7 +425,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC627EFC1E8DDEEF007AC6F3 /* GameScene.swift in Sources */,
+				ACA903951E8E17030040550B /* MainMenuScene.swift in Sources */,
+				ACA903911E8DF14A0040550B /* Player.swift in Sources */,
+				AC627F4C1E8DE160007AC6F3 /* GameplayScene.swift in Sources */,
 				AC627EFE1E8DDEEF007AC6F3 /* GameViewController.swift in Sources */,
 				AC627EF61E8DDEEF007AC6F3 /* AppDelegate.swift in Sources */,
 			);
@@ -422,6 +579,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N6RP3H788Z;
 				INFOPLIST_FILE = "Cowboy Runner/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.stoppler.Cowboy-Runner";
@@ -434,6 +592,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N6RP3H788Z;
 				INFOPLIST_FILE = "Cowboy Runner/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.stoppler.Cowboy-Runner";
@@ -515,6 +674,7 @@
 				AC627F221E8DDEEF007AC6F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AC627F231E8DDEEF007AC6F3 /* Build configuration list for PBXNativeTarget "Cowboy RunnerTests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +683,7 @@
 				AC627F251E8DDEEF007AC6F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AC627F261E8DDEEF007AC6F3 /* Build configuration list for PBXNativeTarget "Cowboy RunnerUITests" */ = {
 			isa = XCConfigurationList;
@@ -531,6 +692,7 @@
 				AC627F281E8DDEEF007AC6F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
