@@ -1,6 +1,6 @@
 //
 //  MainMenuScene.swift
-//  Cowboy Runner
+//  Dude Runner
 //
 //  Created by Ryan Stoppler on 2017-03-30.
 //  Copyright © 2017 stoppler. All rights reserved.

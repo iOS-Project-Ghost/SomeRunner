@@ -1,6 +1,6 @@
 //
 //  GameplayScene.swift
-//  Cowboy Runner
+//  Dude Runner
 //
 //  Created by Ryan Stoppler on 2017-03-30.
 //  Copyright © 2017 stoppler. All rights reserved.
@@ -148,7 +148,7 @@ class GameplayScene: SKScene, SKPhysicsContactDelegate{
             
         }
         
-        if firstBody.node?.name == "Player" && secondBody.node?.name == "Cactus"{
+        if firstBody.node?.name == "Player" && secondBody.node?.name == "Spikes"{
             //kill the player and prompt buttons
             playerDied()
             
@@ -270,10 +270,10 @@ class GameplayScene: SKScene, SKPhysicsContactDelegate{
             
             let obstacle = SKSpriteNode(imageNamed: "Obstacle \(i)");
             
-            //if item is a cactus set name and scale differently
+            //if item is a spikes set name and scale differently
             if i == 0 {
-                obstacle.name = "Cactus"
-                obstacle.setScale(0.4)
+                obstacle.name = "Spikes"
+                obstacle.setScale(0.3)
                 
             } else {
                 
@@ -365,7 +365,7 @@ class GameplayScene: SKScene, SKPhysicsContactDelegate{
         //remove any obstacles left in the scene upon player death
         for child in children {
             
-            if child.name == "Obstacle" || child.name == "Cactus"{
+            if child.name == "Obstacle" || child.name == "Spikes"{
                 child.removeFromParent()
             }
             

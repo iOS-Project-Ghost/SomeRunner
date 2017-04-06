@@ -70,7 +70,7 @@
 		4544CC691E95C90900F81BE2 /* CapDude 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CapDude 7.png"; sourceTree = "<group>"; };
 		4544CC6B1E95C90E00F81BE2 /* CapDude 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CapDude 8.png"; sourceTree = "<group>"; };
 		4544CC6D1E95D7E400F81BE2 /* AprilFlowers-OTF.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AprilFlowers-OTF.otf"; sourceTree = "<group>"; };
-		AC627EF21E8DDEEF007AC6F3 /* Cowboy Runner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cowboy Runner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC627EF21E8DDEEF007AC6F3 /* Dude Runner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dude Runner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC627EF51E8DDEEF007AC6F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC627EFD1E8DDEEF007AC6F3 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		AC627F001E8DDEEF007AC6F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -144,7 +144,7 @@
 		AC627EF31E8DDEEF007AC6F3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AC627EF21E8DDEEF007AC6F3 /* Cowboy Runner.app */,
+				AC627EF21E8DDEEF007AC6F3 /* Dude Runner.app */,
 				AC627F0C1E8DDEEF007AC6F3 /* Cowboy RunnerTests.xctest */,
 				AC627F171E8DDEEF007AC6F3 /* Cowboy RunnerUITests.xctest */,
 			);
@@ -287,7 +287,7 @@
 			);
 			name = "Cowboy Runner";
 			productName = "Cowboy Runner";
-			productReference = AC627EF21E8DDEEF007AC6F3 /* Cowboy Runner.app */;
+			productReference = AC627EF21E8DDEEF007AC6F3 /* Dude Runner.app */;
 			productType = "com.apple.product-type.application";
 		};
 		AC627F0B1E8DDEEF007AC6F3 /* Cowboy RunnerTests */ = {
@@ -587,8 +587,9 @@
 				INFOPLIST_FILE = "Cowboy Runner/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.stoppler.Cowboy-Runner";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Dude Runner";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -600,8 +601,9 @@
 				INFOPLIST_FILE = "Cowboy Runner/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.stoppler.Cowboy-Runner";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Dude Runner";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
